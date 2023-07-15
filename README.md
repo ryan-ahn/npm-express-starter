@@ -9,7 +9,7 @@
 - odm : mongoose
 - type : ts-node & typescript
 
-## Project Install & Start
+## Project Start
 1. nodemon 설치
 ```
 $ npm install -g nodemon
