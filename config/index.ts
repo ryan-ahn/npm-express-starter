@@ -1,9 +1,3 @@
-/**
- * Author : Ryan
- * Date : 2023-04-09
- * Desc : index
- */
-
 import dotenv from 'dotenv';
 
 const envFound = dotenv.config();
