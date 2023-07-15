@@ -20,7 +20,13 @@ $ git clone ryan-ahn/boilerplate-backend-express
 $ cd boilerplate-backend-express
 $ npm install
 ```
-3. server 시작하기
+
+2. environment 설정
+```
+.env 파일 추가하기
+PORT, MONGODB_DEV_URL, MONGODB_PROD_URL, DEV_ROOT_ORIGIN, PROD_ROOT_ORIGIN 입력하기
+```
+4. server 시작하기
 ```
 $ npm run dev
 ```
