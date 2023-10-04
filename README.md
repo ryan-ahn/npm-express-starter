@@ -1,6 +1,8 @@
-# Boiler Plate for Server Setting
+# Ryan's Express Awesome Starter
 
-> Typescript Node 서버 구축용 Express 보일러 플레이트
+![Author](https://img.shields.io/badge/Author-ryan-orange.svg)
+![License](https://img.shields.io/badge/License-MIT-blue.svg)
+![Last Commit](https://img.shields.io/github/last-commit/ryan-ahn/boilerplate-express-tsnode)
 
 ## Setting Stack
 - Server : node
