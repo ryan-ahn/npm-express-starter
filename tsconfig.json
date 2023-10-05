@@ -1,11 +1,22 @@
 {
   "compilerOptions": {
-    "target": "es6",
-    "module": "commonjs",
+    "allowJs": true,
+    "checkJs": true,
+    "target": "es5",
     "outDir": "./dist",
-    "rootDir": ".",
+    "moduleResolution": "Node",
+    "lib": [
+      "ES2015",
+      "DOM",
+      "DOM.Iterable"
+    ],
+    "noImplicitAny": true,
+    "typeRoots": [
+      "./node_modules/@types",
+      "types"
+    ],
     "strict": true,
-    "moduleResolution": "node",
+    "useUnknownInCatchVariables": false,
     "esModuleInterop": true
-  }
+  },
 }
