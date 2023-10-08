@@ -6,7 +6,7 @@
 
 ## Setting Stack
 - Environment : node
-- Framwork : express
+- Framework : express
 - database : mongoDB
 - odm : mongoose
 - type : ts-node & typescript
