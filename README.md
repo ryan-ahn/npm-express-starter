@@ -5,7 +5,7 @@
 ![Last Commit](https://img.shields.io/github/last-commit/ryan-ahn/boilerplate-express-tsnode)
 
 ## Setting Stack
-- Language : node
+- Environment : node
 - Framwork : express
 - database : mongoDB
 - odm : mongoose
