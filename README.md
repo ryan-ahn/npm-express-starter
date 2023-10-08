@@ -1,4 +1,4 @@
-# Ryan's Express Awesome Starter
+# Ryan's Express Fast Starter
 
 ![Author](https://img.shields.io/badge/Author-ryan-orange.svg)
 ![License](https://img.shields.io/badge/License-MIT-blue.svg)
