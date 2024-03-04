@@ -1,9 +1,25 @@
 {
-  "name": "express-starter",
-  "version": "1.0.0",
-  "description": "",
-  "author": "Ryan(github.com/ryan-ahn)",
+  "name": "type-express-starter",
+  "author": {
+    "name": "ryan-ahn",
+    "email": "kaaiinn4@gmail.com",
+    "url": "https://github.com/ryan-ahn"
+  },
   "license": "ISC",
+  "description": "Start a Node Express TypeScript project in few second!",
+  "keywords": [
+    "node",
+    "express",
+    "rds",
+    "mongodb",
+    "typescript",
+    "ts-node",
+    "eslint",
+    "boilerplate"
+  ],
+  "version": "1.0.4",
+  "private": false,
+  "bin": "./bin/npm.mjs",
   "main": "app.ts",
   "engines": {
     "node": "18.18.2"
@@ -17,7 +33,6 @@
   },
   "dependencies": {
     "@types/cors": "^2.8.13",
-    "@types/dotenv": "^8.2.0",
     "@types/express": "^4.17.17",
     "@types/jsonwebtoken": "^9.0.2",
     "@types/passport": "^1.0.12",

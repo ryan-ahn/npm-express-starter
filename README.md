@@ -15,7 +15,7 @@
 1. Installation
 ```
 $ npm install -g nodemon
-$ npx express-starter my-app
+$ npx type-express-starter my-app
 $ cd my-app
 ```
 2. Run Project

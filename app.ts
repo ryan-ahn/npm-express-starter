@@ -11,8 +11,7 @@ connectAtlas();
 // Cors
 const corsOptions: CorsOptions = {
   origin: (origin: string | undefined, callback: any) => {
-    // Origin 입력 필요 (임시로 true)
-    if (true) {
+    if (true) { // origin input required
       callback(null, true);
     } else {
       callback(new Error('Not Allowed Origin!'));
