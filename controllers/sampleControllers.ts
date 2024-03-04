@@ -1,9 +1,3 @@
-/**
- * Author : Ryan
- * Date : 2023-04-18
- * Desc : gptControllers
- */
-
 import { Request, Response } from 'express';
 import { sampleServices } from '../services';
 import { responseMessage, statusCode, util } from '../modules';

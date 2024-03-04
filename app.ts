@@ -1,12 +1,12 @@
 import express from 'express';
-import config from './config';
-import connectDB from './loaders/db';
+import env from './config/env';
+import connectAtlas from './config/atlas';
 import routes from './routes';
 import cors, { CorsOptions } from 'cors';
 require('dotenv').config();
 
 // Connect MongoDB
-connectDB();
+connectAtlas();
 
 // Cors
 const corsOptions: CorsOptions = {
@@ -28,7 +28,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 app.use(routes);
 app
-  .listen(config.port, () => {
+  .listen(env.port, () => {
     console.log(`
     ################################################
             🛡️  Server listening on ${process.env.PORT} 🛡️
