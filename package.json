@@ -5,6 +5,11 @@
     "email": "kaaiinn4@gmail.com",
     "url": "https://github.com/ryan-ahn"
   },
+  "homepage": "https://github.com/ryan-ahn",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ryan-ahn/npm-react18-starter.git"
+  },
   "license": "ISC",
   "description": "Start a Node Express TypeScript project in few second!",
   "keywords": [
@@ -17,7 +22,7 @@
     "eslint",
     "boilerplate"
   ],
-  "version": "1.0.4",
+  "version": "1.0.5",
   "private": false,
   "bin": "./bin/npm.mjs",
   "main": "app.ts",
