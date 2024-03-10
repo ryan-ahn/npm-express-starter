@@ -10,7 +10,7 @@
     "type": "git",
     "url": "https://github.com/ryan-ahn/npm-express-starter.git"
   },
-  "license": "ISC",
+  "license": "MIT",
   "description": "Start a Node Express TypeScript project in few second!",
   "keywords": [
     "node",
@@ -22,7 +22,7 @@
     "eslint",
     "boilerplate"
   ],
-  "version": "1.0.6",
+  "version": "1.0.7",
   "private": false,
   "bin": "./bin/npm.mjs",
   "main": "app.ts",
