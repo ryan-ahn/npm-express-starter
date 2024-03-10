@@ -8,7 +8,7 @@
   "homepage": "https://github.com/ryan-ahn",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ryan-ahn/npm-react18-starter.git"
+    "url": "https://github.com/ryan-ahn/npm-express-starter.git"
   },
   "license": "ISC",
   "description": "Start a Node Express TypeScript project in few second!",
@@ -22,7 +22,7 @@
     "eslint",
     "boilerplate"
   ],
-  "version": "1.0.5",
+  "version": "1.0.6",
   "private": false,
   "bin": "./bin/npm.mjs",
   "main": "app.ts",
